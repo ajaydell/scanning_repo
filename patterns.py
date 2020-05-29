@@ -4,8 +4,6 @@ Storage_Blob_Patterns=r"    patterns = (\"|')?(STORAGE|storage|Storage)?_?(ACCOU
 GIT_Pat_Patterns=r"    patterns = (\"|')?(GIT|git|Git)?_?(PAT|pat|Pat)?_?(TOKEN|token|Token)?_?(SECRET|secret|Secret)(\"|')?\\s*(:|=>|=)\\s*(\"|')?[A-zA-Za-z0-9!@$%&*?"#"\\^+=]{40}(\"|')?
 SQL_Pwd_patterns=r"    patterns = (\"|')?(SQL|sql|Sql)?_?(ADMIN|admin|Admin)?_?(CREDENTIAL|credential|Credential)?_?(PWD|pwd|Pwd)(\"|')?\\s*(:|=>|=)\\s*(\"|')?[A-zA-Za-z0-9!@$%&*?"#"\\^=]{10,15}(\"|')?
 
-
-
 path = 'D:/a/1/s/.git/config'
 
 with open(path, "a") as myfile:
