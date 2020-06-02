@@ -1,1 +1,1 @@
-SQL_Pwd = "ndSbnmbjfD#jFdU"
+SQL_Pwd = "ndSbnmb@fD#jFdU"
